@@ -1,31 +1,38 @@
-Thanks for helping make GitHub safe for everyone.
+# Open Source Security Policies and Procedures
 
-## Security
+This document outlines security procedures and general policies for the all
+Open Source projects found on https://github.com/fako1024.
 
-GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+  * [Reporting a Vulnerability](#reporting-a-vulnerability)
+  * [Disclosure Policy](#disclosure-policy)
 
-Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
+## Reporting a Vulnerability 
 
-## Reporting Security Issues
+We take all security vulnerabilities seriously. Thank you for improving
+the security of our open source software. We appreciate your efforts and
+responsible disclosure and will make every effort to acknowledge your
+contributions.
 
-If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
+Report security vulnerabilities by sending an email to:
+    
+    TBD@example.com
 
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+We will acknowledge your email as soon as possible, and will send a more
+detailed response shortly thereafter indicating the next steps in handling
+your report. After the initial reply to your report, we will endeavor to
+keep you informed of the progress towards a fix and full announcement, and
+may ask for additional information or guidance.
 
-Instead, please send an email to opensource-security[@]github.com.
+Please report security vulnerabilities in third-party modules to the person
+or team maintaining the respective module.
 
-Please include as much of the information listed below as you can to help us better understand and resolve the issue:
+## Disclosure Policy
 
-  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+When we receive a security bug report, we will assign it to a primary handler.
+This person will coordinate the fix and release process, involving the following
+steps:
 
-This information will help us triage your report more quickly.
-
-## Policy
-
-See [GitHub's Safe Harbor Policy](https://docs.github.com/en/site-policy/security-policies/github-bug-bounty-program-legal-safe-harbor)
+  * Confirm the problem and determine the affected versions.
+  * Audit code to find any potential similar problems.
+  * Prepare fixes for all releases still under maintenance. These fixes
+    will be released as fast as possible.
