@@ -12,7 +12,7 @@ contributions.
 
 Report security vulnerabilities by sending an email to:
     
-    TBD@example.com
+    fako1024+github [[@]] gmail <<DOT>> com
 
 We will acknowledge your email as soon as possible, and will send a more
 detailed response shortly thereafter indicating the next steps in handling
