@@ -3,9 +3,6 @@
 This document outlines security procedures and general policies for the all
 Open Source projects found on https://github.com/fako1024.
 
-  * [Reporting a Vulnerability](#reporting-a-vulnerability)
-  * [Disclosure Policy](#disclosure-policy)
-
 ## Reporting a Vulnerability 
 
 We take all security vulnerabilities seriously. Thank you for improving
